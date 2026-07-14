@@ -89,14 +89,14 @@ pip install -r requirements.txt
 ```
 
 ### 3. Get FFmpeg (choose one)
-**Option A — bundled (recommended):**
+**Option A - bundled (recommended):**
 ```bash
 python scripts/download_ffmpeg.py
 ```
 Downloads a static build into `bin/`. The app finds it automatically and it
 gets bundled into standalone builds.
 
-**Option B — system install:**
+**Option B - system install:**
 - **Windows:** `winget install Gyan.FFmpeg` (or download from ffmpeg.org)
 - **macOS:** `brew install ffmpeg`
 - **Linux:** `sudo apt install ffmpeg` (or your distro's package)
