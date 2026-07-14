@@ -34,7 +34,7 @@ class DropArea(QFrame):
         text_box.setSpacing(2)
         headline = QLabel("Drag & drop videos here")
         headline.setObjectName("DropHeadline")
-        hint = QLabel("Drop .MOV files or a folder — or use “Add Files…” below")
+        hint = QLabel("Drop .MOV files or a folder - or use “Add Files…” below")
         hint.setObjectName("DropHint")
         text_box.addWidget(headline)
         text_box.addWidget(hint)
