@@ -1,8 +1,8 @@
-# MovToMp4 — iPhone .MOV → Android .MP4 Converter
+# MovToMp4 - iPhone .MOV → Android .MP4 Converter
 
 A modern desktop app that converts iPhone videos (HEVC/H.265 **or** H.264 in a
 `.MOV` container) into universally compatible **MP4** files using the **H.264
-(AVC)** video codec and **AAC** audio — the combination that plays on virtually
+(AVC)** video codec and **AAC** audio - the combination that plays on virtually
 every Android device.
 
 Built with **Python + PySide6 (Qt)** and powered by **FFmpeg**.
@@ -13,24 +13,24 @@ Built with **Python + PySide6 (Qt)** and powered by **FFmpeg**.
 
 ## Features
 
-- 🎞️ **HEVC & H.264 input** — handles both iPhone recording formats.
-- 📱 **Android-safe output** — H.264 High profile, `yuv420p` 8-bit, AAC stereo,
+- 🎞️ **HEVC & H.264 input** - handles both iPhone recording formats.
+- 📱 **Android-safe output** - H.264 High profile, `yuv420p` 8-bit, AAC stereo,
   `+faststart` for instant playback and progressive streaming.
-- 🔍 **Automatic codec detection** — unsupported codecs are flagged and skipped
+- 🔍 **Automatic codec detection** - unsupported codecs are flagged and skipped
   with a clear warning instead of failing silently.
-- 🧭 **Orientation preserved** — FFmpeg auto-rotates so portrait videos stay
+- 🧭 **Orientation preserved** - FFmpeg auto-rotates so portrait videos stay
   upright on Android; other metadata (creation time, GPS) is copied.
-- 🖱️ **Drag & drop** — drop files *or* whole folders (scanned recursively).
-- 📦 **Batch conversion** — queue as many files as you like.
-- 🎚️ **Quality presets** — High Quality / Balanced / Small File Size.
-- 📐 **Estimated output size** — shown per file, updates with the preset.
-- 📊 **Live progress** — per-file and overall progress bars.
-- 🧵 **Never freezes** — conversions run on a background thread.
-- 🗂️ **Choose output** — a `converted/` subfolder next to each original, or a
+- 🖱️ **Drag & drop** - drop files *or* whole folders (scanned recursively).
+- 📦 **Batch conversion** - queue as many files as you like.
+- 🎚️ **Quality presets** - High Quality / Balanced / Small File Size.
+- 📐 **Estimated output size** - shown per file, updates with the preset.
+- 📊 **Live progress** - per-file and overall progress bars.
+- 🧵 **Never freezes** - conversions run on a background thread.
+- 🗂️ **Choose output** - a `converted/` subfolder next to each original, or a
   single folder you pick.
-- 🧱 **Handles huge files** — FFmpeg streams data, so 10 GB+ inputs are fine.
-- 📝 **Logging & error handling** — rotating log file + in-app log panel.
-- 🚀 **Standalone build** — package to a single executable with PyInstaller.
+- 🧱 **Handles huge files** - FFmpeg streams data, so 10 GB+ inputs are fine.
+- 📝 **Logging & error handling** - rotating log file + in-app log panel.
+- 🚀 **Standalone build** - package to a single executable with PyInstaller.
 
 ---
 
@@ -74,7 +74,7 @@ engine can be reused from a CLI, tests, or a server without a GUI.
 
 ### 1. Prerequisites
 - **Python 3.9+**
-- **FFmpeg** (`ffmpeg` + `ffprobe`) — see below.
+- **FFmpeg** (`ffmpeg` + `ffprobe`) - see below.
 
 ### 2. Get the code & dependencies
 ```bash
