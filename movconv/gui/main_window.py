@@ -555,7 +555,7 @@ class MainWindow(QMainWindow):
     def _on_all_finished(self, completed: int, failed: int) -> None:
         self._converting = False
         self._status_label.setText(
-            f"Finished — {completed} converted, {failed} failed."
+            f"Finished - {completed} converted, {failed} failed."
         )
         self._update_buttons()
         self._teardown_thread()
