@@ -27,7 +27,7 @@ class Preset:
 HIGH = Preset(
     key="high",
     label="High Quality",
-    description="Near-lossless — largest files.",
+    description="Near-lossless - largest files.",
     crf=18,
     x264_preset="slow",
     audio_bitrate_k=256,
@@ -38,7 +38,7 @@ HIGH = Preset(
 BALANCED = Preset(
     key="balanced",
     label="Balanced",
-    description="Great quality, sensible size — recommended.",
+    description="Great quality, sensible size - recommended.",
     crf=22,
     x264_preset="medium",
     audio_bitrate_k=192,
