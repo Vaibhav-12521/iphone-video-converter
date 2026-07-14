@@ -103,7 +103,7 @@ gets bundled into standalone builds.
 
 Make sure `ffmpeg` and `ffprobe` are on your `PATH`.
 
-**Option C — custom location:** set `MOVCONV_FFMPEG_DIR` to the folder that
+**Option C - custom location:** set `MOVCONV_FFMPEG_DIR` to the folder that
 contains `ffmpeg`/`ffprobe`.
 
 ### 4. Run
@@ -160,7 +160,7 @@ The executable appears in `dist/`:
 - **macOS:** `dist/MovToMp4` (see note below)
 - **Linux:** `dist/MovToMp4`
 
-> Builds are **not** cross-platform — build on each target OS.
+> Builds are **not** cross-platform - build on each target OS.
 
 ### Platform notes
 - **Windows:** produces a windowed `.exe` (no console). To add an icon, drop an
@@ -188,4 +188,4 @@ The executable appears in `dist/`:
 ## License
 
 Provided as-is for personal and commercial use. FFmpeg is a separate project
-distributed under its own (LGPL/GPL) license — see https://ffmpeg.org/legal.html.
+distributed under its own (LGPL/GPL) license - see https://ffmpeg.org/legal.html.
