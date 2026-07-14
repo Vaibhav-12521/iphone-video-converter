@@ -1,0 +1,10 @@
+# Runtime dependencies
+#
+# Tested with PySide6 6.6.3.1. Very new PySide6 (6.10+) requires an up-to-date
+# Microsoft Visual C++ 2015-2022 Redistributable; if you hit a
+# "DLL load failed while importing QtCore" error, pin to the tested range below
+# (or install the latest VC++ redistributable from Microsoft).
+PySide6>=6.6,<6.8
+
+# Build-only dependency (installed automatically by build.py)
+# pyinstaller>=6.3.0
